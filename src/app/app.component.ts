@@ -5,7 +5,7 @@ import { CvFormComponent } from "./components/cv-form/cv-form.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CvFormComponent, ],
+  imports: [RouterOutlet, CvFormComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
